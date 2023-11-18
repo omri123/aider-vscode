@@ -10,13 +10,13 @@
     },
     "publisher": "Omri Bloch",
     "license": "MIT",
-    "homepage": "https://github.com/<my-github>/<my-extension-project>",
+    "homepage": "https://github.com/omri123/aider-vscode",
     "repository": {
         "type": "git",
-        "url": "https://github.com/<my-github>/<my-extension-project>.git"
+        "url": "https://github.com/omri123/aider-vscode.git"
     },
     "bugs": {
-        "url": "https://github.com/<my-github>/<my-extension-project>/issues"
+        "url": "https://github.com/omri123/aider-vscode/issues"
     },
     "galleryBanner": {
         "color": "#1e415e",
@@ -43,10 +43,7 @@
             "description": "Virtual Workspaces are not supported with Aider."
         }
     },
-    "activationEvents": [
-        "onLanguage:python",
-        "workspaceContains:*.py"
-    ],
+    "activationEvents": [],
     "main": "./dist/extension.js",
     "scripts": {
         "vscode:prepublish": "npm run package",
@@ -140,9 +137,9 @@
     },
     "devDependencies": {
         "@types/fs-extra": "^11.0.1",
-        "@types/vscode": "1.78.0",
         "@types/glob": "^8.1.0",
         "@types/node": "16.x",
+        "@types/vscode": "1.78.0",
         "@typescript-eslint/eslint-plugin": "^6.2.0",
         "@typescript-eslint/parser": "^6.2.0",
         "@vscode/test-electron": "^2.3.3",
@@ -150,9 +147,9 @@
         "eslint": "^8.45.0",
         "glob": "^10.3.3",
         "prettier": "^3.0.0",
+        "ts-loader": "^9.5.1",
         "typescript": "^5.1.6",
-        "ts-loader": "^9.4.4",
-        "webpack": "^5.88.2",
+        "webpack": "^5.89.0",
         "webpack-cli": "^5.1.4"
     }
 }
